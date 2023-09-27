@@ -43,6 +43,8 @@ nav li a {
   width: 20px;
   color: black;
   font-size: 1.2rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 nav li a:hover {
@@ -69,6 +71,7 @@ nav li a:active {
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
+  margin: 20px;
 }
 
 .one-third {
@@ -78,6 +81,7 @@ nav li a:active {
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
+  margin: 20px;
 }
 .img-source img {
   width: 67rem;
@@ -98,7 +102,8 @@ nav li a:active {
   display: grid;
   grid-template-rows: 1fr 1fr; /* First column auto-sized, second column takes remaining space */
   column-gap: 7px;
-  margin: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   height: 6rem;
   color: #9b9b9b;
 }
@@ -107,6 +112,8 @@ nav li a:active {
   display: flex;
   grid-column: 1;
   height: 5.5rem;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .foot {
